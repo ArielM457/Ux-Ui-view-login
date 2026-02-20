@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EDEDED;
+  padding: 40px;
+}
+
+.login {
+width: 1200px;
+height: 800px;
+flex-shrink: 0;
+border-radius: 16px;
+background: var(--background, #FFF);    
+display: flex;       
+overflow: hidden; 
+}
+
+
+
+.image {
+width: 724px;
+height: 800px;
+background: url(assets/image2.png) lightgray -54.355px -180.589px / 134.14% 166.333% no-repeat;
+flex-shrink: 0;
+
+}
+.main {
+  width: 380px;
+  height: 570px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 42px;
+  margin-left: 40px;}
+
+.logo {
+display: flex;
+padding-bottom: 128px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+.logo-img {
+width: 180px;
+height: 56px;
+aspect-ratio: 45/14;
+}
+
+.title {
+display: flex;
+padding-bottom: 40px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+}
+.title-text {
+flex: 1 0 0;
+color: #191B1E;
+font-family: var(--Family, Ubuntu);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.email-container {
+display: flex;
+padding-bottom: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.email-field {
+display: flex;
+height: 56px;
+padding: 0 16px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 4px;
+border: 1px solid #D5D5D5;
+background: var(--background, #FFF);
+}
+.email-label {
+color: var(--text-subtle, #737A86);
+font-family: var(--Family, Ubuntu);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.password-container {
+display: flex;
+padding-bottom: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+ 
+.password-field {
+display: flex;
+height: 56px;
+padding: 0 16px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 4px;
+border: 1px solid #D5D5D5;
+background: var(--background, #FFF);
+  justify-content: space-between;
+
+}
+
+.password-label {
+    color: var(--text-subtle, #737A86);
+font-family: var(--Family, Ubuntu);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.icon-eye {
+  width: 21.475px;
+  height: 19.8px;
+}
+
+.forgot-password-container {
+display: flex;
+padding-bottom: 40px;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.forgot-password-label {
+color: var(--primary, #007AFF);
+text-align: right;
+font-family: var(--Family, Ubuntu);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.sign-in-container {
+display: flex;
+padding-bottom: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.sign-in-button {
+    display: flex;
+height: 52px;
+padding: 0 16px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+border-radius: 52px;
+background: #007AFF;
+}
+
+.sign-in-label {
+color: #FFF;
+text-align: right;
+font-family: var(--Family, Ubuntu);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.create-account-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+align-self: stretch;
+}
+
+.First-label-create-account {
+color: var(--text-subtle, #737A86);
+font-family: var(--Family, Ubuntu);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.second-label-create-account {
+color: var(--primary, #007AFF);
+text-align: right;
+font-family: var(--Family, Ubuntu);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
